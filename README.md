@@ -30,6 +30,54 @@ This case study demonstrates the architecture of a **conversion-first landing pa
 
 ---
 
+## 🏗️ Conversion Architecture & User Ingestion Funnel
+
+AIDesign structures the landing experience around a **psychological trust and mental-validation ladder**, systematically moving prospective users from initial curiosity to high-intent activation.
+
+```mermaid
+flowchart TD
+    subgraph AcquisitionLayer ["🎯 Inbound Traffic & Attention Capture"]
+        Traffic["Organic Search / Social Ads / Tech Communities"]
+        HeroSection["Above-The-Fold Hero Canvas\n• High-Impact Value Hook\n• Floating Generative Tool Mockup"]
+        SocialProof["Institutional Trust Logos & Metric Counters"]
+    end
+
+    subgraph EvaluationLayer ["🔬 Feature Deconstruction & Mental Validation"]
+        WorkflowTabs["Interactive Workflow Showcases (Prompt-to-UI)"]
+        BenefitCards["Outcome-Driven Metric Cards (4 Days → 15 Mins)"]
+        InteractivePreview["Live Generation Slider & Palette Switcher"]
+    end
+
+    subgraph DecisionLayer ["💎 Risk Reversal & Pricing Transparency"]
+        PricingMatrix{"Pricing Tiers:\n• Explorer (Free Forever)\n• Pro Creator (Monthly/Annual)\n• Studio (Team Seat Packs)"}
+        FAQAccordion["Frictionless FAQ Accordion (No Credit Card)"]
+    end
+
+    subgraph ConversionFunnel ["🚀 Onboarding Activation"]
+        PrimaryCTA["Frictionless Signup Trigger (<30s Google/SSO)"]
+        OnboardingCanvas["Instant Prompt-to-Canvas Workspace"]
+    end
+
+    Traffic --> HeroSection
+    HeroSection --> SocialProof
+    HeroSection --> PrimaryCTA
+    SocialProof --> WorkflowTabs --> BenefitCards --> InteractivePreview
+    InteractivePreview --> PricingMatrix
+    PricingMatrix --> FAQAccordion --> PrimaryCTA
+    PrimaryCTA --> OnboardingCanvas
+```
+
+### 🔬 Conversion Engineering & Growth UX Logic
+
+1. **Cognitive Priming & The 5-Second Test**:
+   - The above-the-fold layout pairs an unambiguous value proposition with a high-fidelity visual product snapshot, allowing first-time visitors to grasp the product's primary output in under 5 seconds.
+2. **Interactive Proof over Static Promises**:
+   - Rather than asking users to trust marketing copy, dynamic sliders and preset prompt chips demonstrate real generative transformations directly inside the browser.
+3. **Zero-Commitment Onboarding Ramp**:
+   - The primary CTA ("Get Started Free") requires zero credit card input, lowering onboarding resistance while positioning the transparent pricing matrix as an upgrade path once users experience initial value.
+
+---
+
 ## 🖼️ High-Fidelity Design Artifact
 
 ### Full Landing Page Composition
